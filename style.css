@@ -1,0 +1,20 @@
+@font-face{
+    font-family: "Norse-Bold";
+    src: url(/OdinFormPage/font/Norse-Bold.otf);
+}
+
+body{
+    margin: 0;
+    font-family: "Norse-Bold";
+    display: flex;
+    background-color: lightblue;
+}
+
+.side-images{
+    
+}
+
+img[src="images/halie-west-25xggax4bSA-unsplash.jpg"]{
+    width: 100%;
+    height: 10%;
+}
