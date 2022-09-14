@@ -8,49 +8,61 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="side-images">
+    <div class="side-images">
         <img src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="background-leaves">
         <div class="logo-container">
             <img src="images/odin-lined.png" alt="odin-logo">
-            <span>ODIN</span>
+            <span id="logo-text">ODIN</span>
         </div>
-        <span class="photo-credits"> Photo by Halie West on Unsplash</span>
+        <span id="photo-credits"> Photo by Halie West on Unsplash</span>
     </div>
 
-    <div id="text-content">
-        <div>
+    <div class="text-content">
+        <div class="form-header">
             <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italics">now</span> to get started</p>
             <span>You <span class="italics">know</span> you want to.</span>
         </div>
-        <div id="form-content">
+        <div class="form-content">
             <form>
                 <fieldset>
-                    <legend>Let's do this!</legend>
+                    <legend class="form-legend">Let's do this!</legend>
 
-                    <label for="firstName">First Name</label>
-                    <input type="text" id = "firstName" name = "firstName">
+                    <div class="form-input">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id = "firstName" name = "firstName">
+                    </div>
 
-                    <label for="lastName">Last Name</label>
-                    <input type="text" id = "lastName" name = "lastName">
+                    <div class="form-input">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id = "lastName" name = "lastName">
+                    </div>
 
-                    <label for="email">EMAIL</label>
-                    <input type="email" id = "email" name = "email">
+                    <div class="form-input">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id = "email" name = "email">
+                    </div>
 
-                    <label for="phone">Phone Number</label>
-                    <input type="number" id = "phone" name = "phone">
+                    <div class="form-input">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" id = "phone" name = "phone">
+                    </div>
 
-                    <label for="password">Passowrd</label>
-                    <input type="password" id = "password" name = "passowrd">
+                    <div class="form-input">
+                        <label for="password">Password</label>
+                        <input type="password" id = "password" name = "passowrd">
+                    </div>
 
-                    <label for="confirmPassword">Confirm Password</label>
-                    <input type="confirmPassword" id = "confirmPassword" name = "confirmPassword">
+                    <div class="form-input">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="confirmPassword" id = "confirmPassword" name = "confirmPassword">
+                    </div>
 
                 </fieldset>
             </form>
         </div>
-        <div id="form-submission">
-            <button type="submit">Create Account</button>
-            <span>Already have an account? <span id="login">Log in</span></span>
+        <div class="form-submission">
+            <button class="submit-button" type="submit">Create Account</button>
+            <p class="login-text">Already have an account? <span id="login">Log in</span></p>
         </div>
     </div>
 </body>
