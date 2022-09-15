@@ -66,7 +66,7 @@ img[src="images/odin-lined.png"]{
 }
 
 .form-header{
-    padding: 20% 20% 5% 5%;
+    padding: 20% 40% 5% 5%;
     font-weight: 600;
     font-size: 20px;
 }
@@ -87,10 +87,17 @@ img[src="images/odin-lined.png"]{
 }
 
 .form-input input{
+    line-height: 170%;
     display: block;
     width: 150%;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
 }
 
+input:focus{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 5px 0px;
+    outline: 1px solid lightskyblue;
+}
 
 fieldset{
     border: 0;
@@ -122,4 +129,15 @@ fieldset{
 #login{
     color: darkolivegreen;
     font-weight: 700;
+}
+
+.error:invalid {
+    color: red;
+    outline: 1px solid red;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
