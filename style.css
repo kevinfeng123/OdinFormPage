@@ -123,6 +123,10 @@ fieldset{
     border: none;
 }
 
+.submit-button:hover {
+    cursor: pointer;
+}
+
 .form-submission p {
     margin-top: 50px;
 }
@@ -131,7 +135,7 @@ fieldset{
     font-weight: 700;
 }
 
-.error:invalid {
+.error:invalid:not(:placeholder-shown):not(:focus) {
     color: red;
     outline: 1px solid red;
 }
